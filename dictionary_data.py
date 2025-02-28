@@ -40,8 +40,8 @@ print("sorted list of : ",sorted_f([25,10,30,12,55,40]))
 prev =""
 c = 0
 out = []
-
-for i in l:
+l2 = "aabccdee"
+for i in l2:
     if i == prev:
         c += 1
     else:

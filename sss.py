@@ -55,3 +55,7 @@ swapped_dict = {value: keys for value, keys in value_to_keys.items()}
 # for k in f.keys():
 #     print(k.__getitem__('addres'))
 
+s = "hi how are"
+
+print(' '.join(s.split(' ')[::-1]))
+

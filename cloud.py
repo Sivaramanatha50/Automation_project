@@ -33,4 +33,17 @@ update_key('c.a',6)
 # s = "ann"
 # print(can_form_palindrome(s))  # Output: True
 
+# n = int(input("enter number: "))
+# fact = 1
+#
+# while(n>0):
+#     fact = fact * n
+#     n = n-1
+# print(fact)
 
+c = {'siva':'name',39:"age"}
+f = {}
+
+for k,v in c.items():
+    f[v] = k
+print(f)
